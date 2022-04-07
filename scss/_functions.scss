@@ -1,0 +1,54 @@
+//MIXINGS
+@mixin flexStyle($position, $enable) {
+    display: flex;
+    align-items: center;
+    @if $enable == 'yes' {
+        justify-content: $position;
+    }
+}
+
+@mixin labelEffect($colorEffect) {
+    transform: translateY(-30px);
+    color: $colorEffect;
+    font-size: 15px;
+}
+
+@mixin backBorderStyle($tamaño, $color) {
+    border-radius: $tamaño;
+    background-color: $color;
+}
+
+@mixin travelStyle($padding) {
+    flex-direction: row;
+    margin: {
+        bottom: 0rem;
+        top: 0rem;    
+    }
+    padding: $padding;
+}
+
+@mixin fontStyle($font, $peso) {
+    font: {
+        size: $font;
+        weight: $peso;
+    }
+}
+
+//MAPS
+$redes: (
+    facebook-square: $facebook,
+    twitter-square: $twitter,
+    instagram-square: $instagram,
+    youtube: $youtube
+);
+
+$modelado: (
+    centro: center,
+    extremos: space-between,
+    alrededor: space-around,
+    ninguno: none,
+    flexible: flex,
+    grilla: grid,
+    bloque: block,
+    final: flex-end
+);

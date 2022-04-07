@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sign in into your SkyLimit account and have access to all benefits, deals, my trips and look for flights.">
+    <meta name="keywords" content="SKYLIMIT, LOGIN, SIGN IN, ACCOUNT">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1">
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.min.css">
+
+    <title>SkyLimit Airlines - Login to your account</title>
+</head>
+<body>
+    <header class="travelHeader">
+        <!--NAVBAR-->
+        <div class="travelHeader__navBar">
+            <nav class="headerNavBar__design">
+                <a href="../index.html" class="headerNavBar__link">
+                    <img class="headerNavBar__logo img-fluid" alt="Travel Logo" src="https://res.cloudinary.com/dukuzakaw/image/upload/v1646938165/SkyLimitAirlinesWebSite/logo/travelLogo_irlvue.webp">
+                </a>
+
+                <div class="headHeader__middle">
+                    <div class="headHeader__search">
+                        <i class="fas fa-search"></i>
+                        <input class="headerSearch__input" type="text" placeholder="Search">    
+                    </div>
+                </div>
+
+                <div class="navBar__linksMenu">
+                    <input type="checkbox" id="burgerMenu__checkBtn">
+                    <label for="burgerMenu__checkBtn" class="linksMenu__burgerMenu">
+                        <i class="fas fa-bars"></i>
+                    </label>
+
+                    <ul>
+                        <li class="linksMenu__disappear"><a href="../index.html">Home</a></li>
+                        <li class="linksMenu__disappear"><a href="./trips.html">My trips</a></li>
+                        <li class="linksMenu__disappear"><a href="./deals.html">Deals</a></li>
+                        <li class="linksMenu__disappear"><a href="./signin.html">SIGN IN</a></li>
+                        <li class="linksMenu__disappear"><a href="./signup.html">SIGN UP</a></li>
+                        <li class="linksMenu__disappear"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--LOGIN-->
+    <main>
+        <div class="container">
+            <div class="row justify-content-center my-5">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img class="headerNavBar__logo img-fluid" alt="Travel Logo" src="https://res.cloudinary.com/dukuzakaw/image/upload/v1646938165/SkyLimitAirlinesWebSite/logo/travelLogo_irlvue.webp">
+                                <h3>Login</h3>
+                            </div>
+                            <p>If you have a MileagePlus Number, fill up your information</p>
+                            <form>
+                                <div class="travelCard__midInfo">
+                                    <div class="travelCardMid_info travelCardMid__info--input">
+                                        <input type="text" required>
+                                        <div class="underline"></div>
+                                        <label>MileagePlus Number or Email*</label>
+                                    </div>
+                                </div>
+                                <div class="travelCard__midInfo">
+                                    <div class="travelCardMid_info travelCardMid__info--input">
+                                        <input type="password" required>
+                                        <div class="underline"></div>
+                                        <label>Password*</label>
+                                    </div>
+                                </div>
+                                <div class="form-check d-flex justify-content-start align-middle travelCard__info--check">
+                                    <input type="checkbox" class="form-check-input" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Remember me
+                                    </label>
+                                </div>
+
+                                <div class="travelCard__button">
+                                    <button type="submit" class="btn btn-primary px-5 py-3">Sign in</button>
+                                </div>
+                            </form>
+                            <div class="createAccount">
+                                <p>Not a member yet?</p>
+                                <a href="./signup.html">Join now</a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="travelFooter travelFooter--signin">
+        <div class="travelFooter__container">
+            <div class="footerContainer__first">
+                <img loading="lazy" class="travelFooter__logo img-fluid" src="https://res.cloudinary.com/dukuzakaw/image/upload/v1646938165/SkyLimitAirlinesWebSite/logo/travelLogo_irlvue.webp" alt="Travel Logo">
+            </div>
+            <div class="travelFooter__brand">
+                <p><span class="footerBrand__copyright">&copy;</span>SkyLimit Airlanes S.A.</p>
+            </div>
+            <div class="container__socialMedia">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

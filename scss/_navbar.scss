@@ -1,0 +1,73 @@
+//NAVBAR
+.travelHeader {
+    width: 100%;
+    background-color: $dark-color-navbar;
+}
+
+.travelHeader__navBar {
+    margin: auto;
+    width: 95%;
+    padding: 1rem 0rem;
+}
+
+.headerNavBar__design {
+    @include flexStyle(space-between, 'yes');
+}
+
+.headerNavBar__logo,
+.travelFooter__logo {
+    width: 160px;
+}
+
+.headHeader__search {
+    @include flexStyle(space-around, '');
+    @include backBorderStyle(15px, white);
+    padding: 0.2rem 0.4rem;
+    i {
+        color: $light-color-textCard;
+        margin: {
+            right: 0.4rem;
+            left: 0.2rem;
+        }
+    }
+}
+
+.headerSearch__input {
+    border: map-get($modelado, ninguno);
+    color: $light-color-textCard;
+    width: 477px;
+    padding: 0.3rem 0;
+}
+
+.navBar__linksMenu {
+    ul {
+        margin: 0;
+        padding: 0;
+        display: map-get($modelado, flexible);
+    }
+
+    li {
+        list-style: map-get($modelado, ninguno);
+        a {
+            text-decoration: map-get($modelado, ninguno);
+            color: #fff;
+            padding: $size;
+            transition: 0.3 ease-in-out;
+            &:hover {
+                @include backBorderStyle(25px, rgba(255, 255, 255, 0.2));
+                border: 1px solid white;
+            }
+        }
+    }
+}
+
+.linksMenu__burgerMenu {
+    display: map-get($modelado, ninguno);
+    font-size: $size * 3;
+    color: white;
+    cursor: pointer;
+}
+
+#burgerMenu__checkBtn {
+    display: map-get($modelado, ninguno);
+}

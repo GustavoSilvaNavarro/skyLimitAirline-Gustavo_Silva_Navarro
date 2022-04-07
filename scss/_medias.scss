@@ -1,0 +1,374 @@
+//MEDIAS QUERYS INDEX
+@media (max-width: 1200px) {
+    //NAVBAR
+    .headerSearch__input {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1085px) {
+    //NAVBAR
+    .headerSearch__input {
+        width: 100%;
+    }
+
+    //SECTION
+    .gridContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    //MAIN
+    .travelCard_top {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0rem 0.8rem;
+    }
+
+    .travelCard_mid--location {
+        padding: 0.3rem 1rem;
+    }
+
+    .travelCard__mid--date,
+    .travelCard__mid--passanger {
+        flex-direction: column;
+        padding: {
+            top: 0;
+            bottom: 0;
+        }
+        margin: {
+            bottom: $size;
+            top: $size;    
+        }
+    }
+
+    .travelCard__mid--date .icon,
+    .travelCard__mid--passanger .icon {
+        display: map-get($modelado, ninguno);
+    }
+
+    .travelCard__mid--date .travelCardMid_info:first-child,
+    .travelCard__mid--passanger .travelCardMid_info:first-child {
+        margin-bottom: $size * 1.5;
+    }
+
+    //SIGN UP
+    .accountInfo__inputLabel {
+        > input,
+        > select {
+            width: 60%;
+        }
+    }
+
+    .accountInfo__checkbox {
+        width: 60%;
+    }
+}
+
+@media (max-width: 910px) {
+    //NAVBAR
+    .linksMenu__burgerMenu {
+        display: map-get($modelado, bloque);
+        padding: 0.2rem 0.6rem;
+
+        &:hover {
+            @include backBorderStyle(25px, rgba(255, 255, 255, 0.2));
+            border: 1px solid white;
+        }
+    }
+
+    .navBar__linksMenu {
+        ul {
+            position: absolute;
+            width: 100%;
+            background-color: #57606f;
+            top: 121.23px;
+            left: -100%;
+            justify-content: map-get($modelado, centro);
+            align-items: map-get($modelado, centro);
+            padding: 1rem 0;
+            z-index: 3;
+            transition: all 0.5s;
+        }
+    }
+
+    #burgerMenu__checkBtn:checked ~ ul {
+        left: 0;
+    }
+
+    .navBar__linksMenu li a:hover {
+        @include backBorderStyle(0px, transparent);
+        border: map-get($modelado, ninguno);
+        color: $dark-color-navbar;
+    }
+
+    .headerSearch__input {
+        width: 400px;
+    }
+}
+
+@media (max-width: 767px) {
+    //MAIN
+    .travelCard_top {
+        margin: 1.2rem 0.8rem;
+    }
+
+    .travelCard__mid--date {
+        @include travelStyle(1.4rem 1rem);
+    }
+
+    .travelCard__mid--passanger {
+        @include travelStyle(0.8rem 1rem);
+    }
+
+    .travelCard__mid--date .icon,
+    .travelCard__mid--passanger .icon {
+        display: map-get($modelado, bloque);
+    }
+
+    .travelCard__mid--date .travelCardMid_info:first-child,
+    .travelCard__mid--passanger .travelCardMid_info:first-child {
+        margin-bottom: 0rem;
+    }
+
+    //MY TRIPS PAGE
+    //MAIN
+    .travelCardMid_info--input {
+        width: 60% !important;
+    }
+
+    //SIGN UP
+    .accountInfo__grid {
+        display: map-get($modelado, ninguno);
+    }
+
+    .accountInfo__login {
+        margin-bottom: $size * 1.5;
+    }
+
+    .accountInfo__inputLabel {
+        > input,
+        > select {
+            width: 70%;
+        }
+    }
+
+    .accountInfo__checkbox {
+        width: 70%;
+    }
+
+    //SIGN UP
+    .accountInfo__grid {
+        display: map-get($modelado, ninguno);
+    }
+
+    .accountInfo__login {
+        margin-bottom: $size * 1.5;
+    }
+
+    .accountInfo__inputLabel {
+        > input,
+        > select {
+            width: 70%;
+        }
+    }
+
+    .accountInfo__checkbox {
+        width: 70%;
+    }
+}
+
+@media (max-width: 740px) {
+    //NAVBAR
+    .headerSearch__input {
+        width: 100%;
+    }
+
+    //FOOTER
+    .footerContainer__first {
+        display: map-get($modelado, ninguno);
+    }
+
+    .travelFooter__container {
+        flex-direction: column;
+    }
+
+    //DEALS
+    .sectionDeals__title {
+        height: 150px;
+    }
+}
+
+@media (max-width: 540px) {
+    //NAVBAR
+    .headHeader__middle {
+        display: map-get($modelado, ninguno);
+    }
+
+    .navBar__linksMenu {
+        ul {
+            flex-direction: column;
+        }
+
+        li {
+            padding: 1rem 0;
+            a {
+                font-size: $size * 1.3;
+            }
+        }
+    }
+
+    .gridContainer {
+        grid-template-columns: 1fr;
+    }
+
+    //SIGN UP
+    .accountInfo__inputLabel {
+        > input,
+        > select {
+            width: 90%;
+        }
+    }
+
+    .accountInfo__checkbox {
+        width: 90%;
+    }
+
+    .accountInfo__button{
+        display: map-get($modelado, flexible);
+        justify-content: map-get($modelado, centro);
+    }
+
+    //DEALS
+    .gridContainer__card--cardInfo {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    //NAVBAR
+    .headerNavBar__logo {
+        width: 110px;
+    }
+
+    .linksMenu__burgerMenu {
+        font-size: $size * 2;
+        padding: 0.2rem 1rem;
+    }
+
+    .navBar__linksMenu {
+        ul {
+            top: 93.34px;
+        }
+    }
+
+    //MAIN
+    .travelMain__title {
+        display: map-get($modelado, ninguno);
+    }
+
+    .travelCard_top {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0rem 0.8rem;
+    }
+
+    .travelCard_mid--location {
+        padding: 0.3rem 1rem;
+        flex-direction: column;
+        margin-top: $size;
+    }
+
+    .travelCardMid_info--toInput {
+        margin-top: $size * 1.2;
+    }
+
+    .icon {
+        display: map-get($modelado, ninguno);
+    }
+
+    .travelCard__mid--date,
+    .travelCard__mid--passanger {
+        flex-direction: column;
+        padding: {
+            top: 0;
+            bottom: 0;    
+        }
+        margin: {
+            bottom: $size;
+            top: $size;    
+        }
+    }
+
+    .travelCard__mid--date .icon,
+    .travelCard__mid--passanger .icon {
+        display: map-get($modelado, ninguno);
+    }
+
+    .travelCard__mid--date .travelCardMid_info:first-child,
+    .travelCard__mid--passanger .travelCardMid_info:first-child {
+        margin-bottom: $size * 1.5;
+    }
+
+    //MY TRIPS PAGE
+    .travelCardMid_info--input {
+        width: 100% !important;
+    }
+
+    //DEALS
+    .sectionDeals__title {
+        height: 120px;
+    }
+
+    .popularPlaces__button {
+        padding: 1rem 1rem;
+        margin: 1rem 0 1rem 0;
+        font-size: 14px;
+    }
+
+    .gridContainer__card--cardInfo {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 330px) {
+    //INDEX
+    .gridCard__img {
+        height: 150px;
+    }
+
+    //DEALS
+    .popularPlaces {
+        margin: 0rem;
+    }
+
+    .popularPlaces__subtitle {
+        text-align: map-get($modelado, centro);
+        font-size: $size * 1.8;
+        padding-bottom: $size;
+    }
+
+    .gridContainer__card--cardInfo {
+        width: 100%;
+        margin: auto;
+    }
+
+    //TRIPS
+    .cardBody__top {
+        flex-direction: column;
+    }
+
+    .travelCardMid_info--input {
+        label {
+            font-size: 20px;
+        }
+    }
+
+    //SIGN IN
+    .travelCardMid__info--input {
+        > label {
+            font-size: 20px;
+        }
+    }
+}

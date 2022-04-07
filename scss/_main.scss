@@ -1,0 +1,567 @@
+//MAIN
+//SLIDER
+.img_slider {
+    width: 100%;
+    animation: animate 16s ease-in-out infinite;
+    background: {
+        size: cover;
+        position: map-get($modelado, centro);
+        repeat: no-repeat;
+    }
+}
+
+.imgSlider_outer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.travelMain {
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.travelMain__title--mainTitle {
+    color: #fff;
+    font-size: $size * 2.9;
+}
+
+//CARD
+.travelCard_top {
+    display: map-get($modelado, grilla);
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1.2rem 0.8rem;
+}
+
+.travelCard_mid {
+    @include flexStyle(space-around, 'yes');
+    padding: 1.4rem 1rem;
+}
+
+.travelCardMid_info {
+    height: 46px;
+    width: 100%;
+    position: relative;
+
+    input,
+    select {
+        height: 100%;
+        width: 100%;
+        border: map-get($modelado, ninguno);
+        border-bottom: 1px solid $dark-color-navbar;
+        font-size: 24px;
+        color: $dark-color-navbar;
+    }
+
+    input:hover,
+    select:hover,
+    input:focus,
+    select:focus {
+        color: $light-color-input;
+    }
+}
+
+.icon {
+    margin: 0 1rem;
+}
+
+.travelCardMid_info input[type="date"]::-webkit-calendar-picker-indicator {
+    display: map-get($modelado, ninguno);
+    -webkit-appearance: map-get($modelado, ninguno);
+}
+
+.travelCardMid_info {
+    label {
+        position: absolute;
+        left: 0px;
+        bottom: 10px;
+        color: #596275;
+        pointer-events: map-get($modelado, ninguno);
+        font-size: 24px;
+        transition: all 0.3s ease;    
+    }
+}
+
+.travelCardMid_info input:hover ~ label,
+.travelCardMid_info input:focus ~ label,
+.travelCardMid_info input:valid ~ label  {
+    @include labelEffect($light-color-input);
+}
+
+.travelCardMid_info input:valid ~ label  {
+    @include labelEffect($dark-color-navbar);
+}
+
+.travelCardMid_info input:hover ~ label,
+.travelCardMid_info input:focus ~ label {
+    @include labelEffect($light-color-input);
+}
+
+.travelCardMid_info {
+    .underline {
+        position: absolute;
+        bottom: 0px;
+        height: 2px;
+        width: 100%;
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            background: $light-color-input;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+    }
+}
+
+.travelCardMid_info input:hover ~ .underline::before,
+.travelCardMid_info input:focus ~ .underline::before,
+.travelCardMid_info select:hover ~ .underline::before,
+.travelCardMid_info select:focus ~ .underline::before {
+    transform: scaleX(1);
+}
+
+.revers-icon {
+    font-size: $size * 1.4;
+}
+
+@keyframes animate {
+    0%, 100% {
+        background-image: url('https://res.cloudinary.com/dukuzakaw/image/upload/v1647355678/SkyLimitAirlinesWebSite/slider-back-photos/photo1_dpyaqt.webp');
+    }
+
+    25% {
+        background-image: url('https://res.cloudinary.com/dukuzakaw/image/upload/v1647355678/SkyLimitAirlinesWebSite/slider-back-photos/photo3_th3qzf.webp');
+    }
+
+    50% {
+        background-image: url('https://res.cloudinary.com/dukuzakaw/image/upload/v1647355679/SkyLimitAirlinesWebSite/slider-back-photos/photo4_kgba8r.webp');
+    }
+
+    75% {
+        background-image: url('https://res.cloudinary.com/dukuzakaw/image/upload/v1647355672/SkyLimitAirlinesWebSite/slider-back-photos/photo5_ya4rwz.webp');
+    }
+}
+
+//SECTION
+.sectionCard__title {
+    font-size: $size * 3;
+    text-align: map-get($modelado, centro);
+    margin-bottom: $size;
+}
+
+.containerSection {
+    width: 90%;
+    margin: auto;
+}
+
+.gridContainer {
+    display: map-get($modelado, grilla);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin-bottom: $size * 2;
+}
+
+.gridContainer__card {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%);
+    }
+}
+
+.gridCard__img {
+    width: 100%;
+}
+
+.gridCard__date {
+    background: #eeedf9;
+    border-radius: 15px;
+    transform: translateY(-6%);
+
+    > p {
+        padding: 0.2rem 0.6rem;
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    p {
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+.gridCard__info {
+    background: #fff;
+    border-radius: 15px;
+    padding: 0.6rem;
+}
+
+.cardInfo__bottom {
+    @include flexStyle(space-between, '');
+}
+
+.cardPrice__element--around {
+    justify-content: map-get($modelado, extremos);
+}
+
+.cardPrice__element {
+    @extend .cardInfo__bottom;
+    > i {
+        font-size: $size * 2;
+    }
+}
+
+.cardInfo__location {
+    @extend .cardInfo__bottom;
+    i {
+        font-size: $size * 1.6;
+        margin-right: 10px;
+        color: #b2bec3;     
+    }
+}
+
+.cardInfo__title {
+    margin: 0;
+    font-size: $size * 1.5;
+    color: $dark-color-navbar;
+}
+
+.cardInfo__price {
+    margin: 1rem 0 0 0.5rem;
+    line-height: 1.5;
+}
+
+.cardInfo__price > p,
+.cardInfo__bottom > p {
+    margin: 0;
+}
+
+.cardInfo__text {
+    font-size: 14px;
+    color: $light-color-textCard;
+}
+
+.cardInfo__text--price {
+    color: $dark-color-navbar;
+    @include fontStyle($size * 1.4, 700);
+}
+
+.cardInfo__bottom {
+    p:first-child {
+        margin-right: $size * 0.9;
+    }
+}
+
+//TRIPS PAGE
+//MAIN
+.containerCard__title {
+    margin: 2rem 0;
+    @include fontStyle($size * 3, 300);
+}
+
+.cardHeader--title {
+    background-color: $dark-color-navbar;
+
+    > h2 {
+        color: #fff;
+    }
+}
+
+.cardBody {
+    padding: 0.6rem 0;
+}
+.card-body > p {
+    color: $light-color-textCard;
+}
+
+.cardBody__top {
+    display: map-get($modelado, flexible);
+
+    > div:first-child {
+        margin-right: $size * 2;
+    }    
+}
+
+.travelCard__midInfo {
+    padding: 1.4rem 0rem;
+}
+
+.travelCardMid_info--input {
+    width: 40% !important;
+}
+
+//FAQs SECTION
+.containerAccordion {
+    width: 100%;
+}
+
+.accordionGroup {
+    width: 82.5%;
+    margin: 0rem auto 3rem;
+}
+
+.accordionGroup__item {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.accordionItem__link {
+    @include fontStyle($size * 1.2, bold);
+    color: $dark-color-navbar;
+    text-decoration: map-get($modelado, ninguno);
+    width: 100%;
+    @include flexStyle(space-between, 'yes');
+    border-top: 1px solid $dark-color-navbar;
+    padding: 0.5rem 0rem 0rem 0rem;
+
+    i {
+        padding: .5rem;
+        font-size: $size * 2;
+    }
+
+    .fa-angle-up {
+        display: map-get($modelado, ninguno);
+    }
+
+    &:hover {
+        color: $dark-color-navbar;
+    }
+}
+
+.accordionItem__anwser {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1rem;
+    transition: max-height 650ms;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: .3rem;
+        height: 90%;
+        background-color: $dark-color-navbar;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    p {
+        font-size: $size;
+        padding: 0rem 1rem;
+        margin-bottom: 0;
+        a {
+            text-decoration: map-get($modelado, ninguno);
+        }
+    }
+}
+
+.accordionGroup__item:target {
+    .accordionItem__anwser {
+        max-height: $size * 35;
+    }
+
+    .accordionItem__link {
+        .fa-angle-down {
+            display: map-get($modelado, ninguno);
+        }
+
+        .fa-angle-up {
+            display: map-get($modelado, bloque);
+        }
+    }
+}
+
+//DEALS PAGE
+//SECTION TITLE
+.sectionDeals__title {
+    background: url('https://res.cloudinary.com/dukuzakaw/image/upload/v1646938082/SkyLimitAirlinesWebSite/dealsPhotos/nepal_knyb5s.webp') no-repeat center center;
+    background-size: cover;
+    border-radius: 0px 0px 15px 15px;
+    height: 200px;
+    width: 100%;
+    @include flexStyle(space-around, '');
+    > h1 {
+        color: #fff;
+        margin-left: $size * 1.5;
+    }
+}
+
+//MAIN
+.popularPlaces {
+    margin: $size * 2;
+}
+
+.popularPlaces__subtitle {
+    margin: $size * 1.5;
+    font-size: $size * 2;
+    padding-bottom: $size * 1.5;
+    color: $dark-color-navbar;
+}
+
+.gridCard__info--bodyCard {
+    transform: translateY(-12%);
+}
+
+.gridCard__info {
+    h4 {
+        color: $dark-color-navbar;
+    }
+
+    i {
+        font-size: $size * 2.5;
+        color: $dark-color-navbar;
+        display: map-get($modelado, flexible);
+        justify-content: map-get($modelado, final);
+    }
+}
+
+.popularPlaces__button {
+    padding: 1rem 2rem;
+    margin: 3rem 0 2rem 0;
+}
+
+//SECTION INFORMATION
+.sectionPreparations {
+    margin-bottom: $size * 3;
+}
+
+.sectionInfo {
+    padding: 3.5rem 1.5rem;
+    background-color: $dark-color-navbar;
+}
+
+.sectionInfo__subtitle {
+    font-weight: 400;
+}
+
+.sectionInfo__info {
+    margin-top: $size * 0.8;
+}
+
+.gridCard__info--body {
+    transition: all 400ms ease;
+    &:hover {
+        transform: translateY(-6%);
+    }
+}
+
+.gridCard__title--info {
+    color: $dark-color-navbar;
+}
+
+.gridCard__title--text {
+    color: $light-color-textCard;
+}
+
+.gridCard__info {
+    > a {
+        text-decoration: map-get($modelado, ninguno);
+    }
+}
+
+.gridContainer--section{
+    gap: 1em !important;
+}
+
+//SIGN IN PAGE
+//MAIN
+.text-center > h3 {
+    margin: 1rem 0;
+    color: $dark-color-navbar;
+}
+
+.travelCardMid__info--input {
+    width: 92% !important;
+}
+
+.travelCard__info--check {
+    margin: 1rem 2rem 1rem 0.7rem;
+
+    > input {
+        margin-right: $size * 0.6;
+    }
+}
+
+.travelCard__button {
+    display: map-get($modelado, flexible);
+    justify-content: map-get($modelado, centro);
+}
+
+.createAccount {
+    text-align: end;
+    padding: 2rem 0 0 0;
+    margin-right: $size;
+
+    > p {
+        margin: 0;
+    }
+
+    > a {
+        text-decoration: map-get($modelado, ninguno);
+    }
+}
+
+//FOOTER
+.travelFooter--signin {
+    display: map-get($modelado, ninguno);
+}
+
+//SIGN UP PAGE
+//MAIN
+.accountInfo {
+    margin: 2rem 0 3rem 0;
+}
+
+.accountInfo__title,
+.accountInfo__subtitle {
+    color: $dark-color-navbar;
+    font-weight: 400;
+    margin-bottom: $size;
+}
+
+.accountInfo__login {
+    margin-bottom: $size * 2.5;
+
+    > a {
+        text-decoration: map-get($modelado, ninguno);
+    }
+}
+
+.accountInfo__extraInfo {
+    font-weight: 500;
+}
+
+.accountInfo__inputLabel {
+    display: map-get($modelado, flexible);
+    flex-direction: column;
+    padding: 0.5rem 0;
+    > label {
+        font-size: $size * 1.25;
+    }
+    > input,
+    > select {
+        width: 30%;
+        padding: 0.5rem 0.3rem;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    > input:focus,
+    > select:focus {
+        border: 2px solid $dark-color-navbar;
+    }
+}
+
+.accountInfo__checkbox {
+    margin: 1.3rem 0;
+    width: 30%;
+}

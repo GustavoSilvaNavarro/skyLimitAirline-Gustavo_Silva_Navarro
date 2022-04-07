@@ -1,0 +1,40 @@
+//FOOTER
+.travelFooter {
+    width: 100%;
+    background-color: $light-color-footer;
+    padding: 0.5rem 0;
+}
+
+.travelFooter__container {
+    margin: 0 auto;
+    width: 95%;
+    @include flexStyle(space-between, 'yes');
+}
+
+.travelFooter__brand {
+    > p {
+        font-size: $size * 1.2;
+        margin: 0;
+    }
+}
+
+.container__socialMedia {
+    @include flexStyle(space-around, 'yes');
+
+    > a {
+        margin: $size * 0.5;
+        font-size: $size * 1.8;
+        cursor: pointer;
+        text-decoration: map-get($modelado, ninguno);
+        transition: all 400ms ease;
+        &:hover {
+            transform: translateY(-12%);
+        }
+    }
+}
+
+@each $red, $color in $redes {
+    .fa-#{$red} {
+        color: $color;
+    }
+}
