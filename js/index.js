@@ -113,34 +113,48 @@ const vuelosReturDispo = returnPlaces.join('\n');
 //FIND YOUR FLIGHT
 const findFlight = (pasajero, ida, vuelta) => {
     alert(`Vuelos Disponibles para retorno:\n\n${vuelta}\n\nEn la siguiente pestaña elegir un destino de los mencionados!`);
-    let partida = prompt('Cual es tu partida?').toLowerCase();
+    let partida = prompt('Cual es tu partida?').toLowerCase().trim();
 
     while((returnPlaces.indexOf(partida) === -1) || (partida == '')) {
-        partida = prompt('No se cuentan con vuelos hacia ese destino, favor escoga otro destion!').toLowerCase();
+        alert(`Vuelos Disponibles para retorno:\n\n${vuelta}\n\nEn la siguiente pestaña elegir un destino de los mencionados!`);
+        partida = prompt('No se cuentan con vuelos hacia ese destino, favor escoga otro pais para tu retorno!').toLowerCase().trim();
     };
 
     alert(`Vuelos Disponibles a tu destino:\n\n${ida}\n\nEn la siguiente pestaña elegir un destino de los mencionados!`);
-    let destinoFinal = prompt('Cual es tu detino?').toLowerCase();
+    let destinoFinal = prompt('Cual es tu detino?').toLowerCase().trim();
 
     while((destinationPlaces.indexOf(destinoFinal) === -1) || (destinoFinal == '')) {
-        destinoFinal = prompt('No se cuentan con vuelos hacia ese destino, favor escoga otro destion!').toLowerCase();
+        alert(`Vuelos Disponibles a tu destino:\n\n${ida}\n\nEn la siguiente pestaña elegir un destino de los mencionados!`);
+        destinoFinal = prompt('No se cuentan con vuelos hacia ese destino, favor escoga otro destino!').toLowerCase().trim();
     };
+
+    while(destinoFinal == partida) {
+        alert('Favor vuelva a escoger los destinos y partidas, estos deben ser diferente!!');
+        alert(`Vuelos Disponibles para retorno:\n\n${vuelta}\n\nEn la siguiente pestaña elegir un destino de los mencionados!`);
+        partida = prompt('No se cuentan con vuelos hacia ese destino, favor escoga otro pais para tu retorno!').toLowerCase().trim();
+        alert(`Vuelos Disponibles a tu destino:\n\n${ida}\n\nEn la siguiente pestaña elegir un destino de los mencionados!`);
+        destinoFinal = prompt('No se cuentan con vuelos hacia ese destino, favor escoga otro destino!').toLowerCase().trim();
+    }
 
     const posibleFlights = routesAvailable.filter(route => route.return.returnFlight == partida);
     const finalFlight = posibleFlights.filter(rutaDestino => rutaDestino.destination.destination == destinoFinal);
 
-    if(finalFlight.length != 0) {
+    selectFlight(finalFlight, pasajero);
+};
+
+const selectFlight = (finalOptions, passanger) => {
+    if(finalOptions.length != 0) {
         let differentOptions = [];
         let unicasOpciones = [];
-        for(let i = 0; i < finalFlight.length; i++) {
-            const destinoPais = finalFlight[i].destination.destination;
-            const fechaIda = finalFlight[i].destination.firstdate;
-            const retornoPais = finalFlight[i].return.returnFlight;
-            const fechaVuelta = finalFlight[i].return.returnDate;
-            const costoTicket = finalFlight[i].sumaTicket();
-            const impuesto = finalFlight[i].taxes();
+        for(let i = 0; i < finalOptions.length; i++) {
+            const destinoPais = finalOptions[i].destination.destination;
+            const fechaIda = finalOptions[i].destination.firstdate;
+            const retornoPais = finalOptions[i].return.returnFlight;
+            const fechaVuelta = finalOptions[i].return.returnDate;
+            const costoTicket = finalOptions[i].sumaTicket();
+            const impuesto = finalOptions[i].taxes();
             const TotalTicket = costoTicket + impuesto;
-            const options = finalFlight[i].id;
+            const options = finalOptions[i].id;
             unicasOpciones.push(options);
             differentOptions.push(`Opcion: ${options} | Ida: ${destinoPais} - Fecha ida: ${fechaIda} / Vuelta: ${retornoPais} - Fecha Vuelta: ${fechaVuelta} | Precio a Pagar: ${TotalTicket}`);
         }
@@ -151,14 +165,14 @@ const findFlight = (pasajero, ida, vuelta) => {
         let choice = parseInt(prompt('Favor indicar su opción?'));
 
         while((unicasOpciones.indexOf(choice) === -1) || (isNaN(choice))) {
+            alert(`Estas son tus opciones de vuelo:\n\n${opciones}\n\nFavor en la siguiente pantalla indica el numero de opcion!`);
             choice = parseInt(prompt('Favor indicar una de las opciones indicadas!'));
         };   
     
-        const optionSelected = finalFlight.filter(flight => flight.id == choice);
-        console.log(optionSelected);
+        const optionSelected = finalOptions.filter(flight => flight.id == choice);
         const res = reservationGenerator(6);
 
-        const yourTicket = (new myTicket(pasajero, res, optionSelected[0].destination.destination, optionSelected[0].destination.firstdate, optionSelected[0].return.returnFlight, optionSelected[0].return.returnDate, optionSelected[0].iva + optionSelected[0].totalPrice));
+        const yourTicket = (new myTicket(passanger, res, optionSelected[0].destination.destination, optionSelected[0].destination.firstdate, optionSelected[0].return.returnFlight, optionSelected[0].return.returnDate, optionSelected[0].iva + optionSelected[0].totalPrice));
         yourTicket.generateTicket();
     } else {
         alert('Lo sentimos!\n\nVuelo no disponible por el momento, vuela a realizar su busqueda, recargando la pagina nuevamente!');
