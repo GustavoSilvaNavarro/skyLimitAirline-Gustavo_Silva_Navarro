@@ -1,3 +1,12 @@
+.stickyAlert {
+    position: fixed;
+    top: 100px;
+    width: 95%;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 //MAIN
 //SLIDER
 .img_slider {
@@ -58,18 +67,7 @@
     select:focus {
         color: $light-color-input;
     }
-}
 
-.icon {
-    margin: 0 1rem;
-}
-
-.travelCardMid_info input[type="date"]::-webkit-calendar-picker-indicator {
-    display: map-get($modelado, ninguno);
-    -webkit-appearance: map-get($modelado, ninguno);
-}
-
-.travelCardMid_info {
     label {
         position: absolute;
         left: 0px;
@@ -81,22 +79,95 @@
     }
 }
 
+.travelCardMid_inf {
+    height: 46px;
+    width: 100%;
+    position: relative;
+
+    input {
+        height: 100%;
+        width: 100%;
+        border: map-get($modelado, ninguno);
+        border-bottom: 1px solid $dark-color-navbar;
+        font-size: 24px;
+        color: $dark-color-navbar;
+    }
+
+    input:hover,
+    input:focus {
+        color: $light-color-input;
+    }
+
+    label {
+        position: absolute;
+        left: 0px;
+        bottom: 10px;
+        color: #596275;
+        pointer-events: map-get($modelado, ninguno);
+        transition: all 0.3s ease;
+        transform: translateY(-30px);
+        font-size: 15px;  
+    }
+}
+
+.icon {
+    margin: 0 1rem;
+}
+
+.travelCardMid_inf input[type="date"]::-webkit-calendar-picker-indicator {
+    display: map-get($modelado, ninguno);
+    -webkit-appearance: map-get($modelado, ninguno);
+}
+
 .travelCardMid_info input:hover ~ label,
 .travelCardMid_info input:focus ~ label,
 .travelCardMid_info input:valid ~ label  {
-    @include labelEffect($light-color-input);
+    @include labelEffect($light-color-input, 'yes');
+}
+
+.travelCardMid_inf input:hover ~ label,
+.travelCardMid_inf input:focus ~ label,
+.travelCardMid_inf input:valid ~ label  {
+    @include labelEffect($light-color-input, '');
 }
 
 .travelCardMid_info input:valid ~ label  {
-    @include labelEffect($dark-color-navbar);
+    @include labelEffect($dark-color-navbar, 'yes');
+}
+
+.travelCardMid_inf input:valid ~ label  {
+    @include labelEffect($dark-color-navbar, '');
 }
 
 .travelCardMid_info input:hover ~ label,
 .travelCardMid_info input:focus ~ label {
-    @include labelEffect($light-color-input);
+    @include labelEffect($light-color-input, 'yes');
+}
+
+.travelCardMid_inf input:hover ~ label,
+.travelCardMid_inf input:focus ~ label {
+    @include labelEffect($light-color-input, '');
 }
 
 .travelCardMid_info {
+    .underline {
+        position: absolute;
+        bottom: 0px;
+        height: 2px;
+        width: 100%;
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            background: $light-color-input;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+    }
+}
+
+.travelCardMid_inf {
     .underline {
         position: absolute;
         bottom: 0px;
@@ -121,6 +192,32 @@
     transform: scaleX(1);
 }
 
+.travelCardMid_inf input:hover ~ .underline::before,
+.travelCardMid_inf input:focus ~ .underline::before,
+.travelCardMid_inf select:hover ~ .underline::before,
+.travelCardMid_inf select:focus ~ .underline::before {
+    transform: scaleX(1);
+}
+
+.errorMessages {
+    display: none;
+    margin-bottom: 0;
+    color: red;
+    font-size: 10px;
+}
+
+.errorMessages--active {
+    display: block;
+}
+
+.errorColorLabel {
+    color: red !important;
+}
+
+.errorColor::before {
+    background: red !important;
+}
+
 .revers-icon {
     font-size: $size * 1.4;
 }
@@ -141,6 +238,47 @@
     75% {
         background-image: url('https://res.cloudinary.com/dukuzakaw/image/upload/v1647355672/SkyLimitAirlinesWebSite/slider-back-photos/photo5_ya4rwz.webp');
     }
+}
+
+//FLIGHTS
+.flightDetail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    i {
+        font-size: $size * 1.5;
+        color: $dark-color-navbar;
+    }
+}
+
+.dateOfFlight {
+    color: black;
+}
+
+.takeOffDetails, .landingDetails {
+    display: flex;
+    align-items: center;
+}
+
+.timeFlight, .timeLanding, .passangerPrice, .orderTakeoffDetail, .orderLandingDetail {
+    color: $dark-color-navbar;
+}
+
+.flightOrigen, .flightLanding, .passangerDetail, .orderOrigenFlight, .orderLandingFlight {
+    color: $light-color-textCard;
+}
+
+.priceDetail {
+    display: flex;
+    flex-direction: column;
+    p {
+        margin: 0px;
+    }
+}
+
+.circleIcon {
+    font-size: 3px;
+    color: $dark-color-navbar;
 }
 
 //SECTION

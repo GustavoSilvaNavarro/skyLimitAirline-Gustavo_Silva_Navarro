@@ -7,10 +7,12 @@
     }
 }
 
-@mixin labelEffect($colorEffect) {
-    transform: translateY(-30px);
+@mixin labelEffect($colorEffect, $enableFunction) {
     color: $colorEffect;
-    font-size: 15px;
+    @if $enableFunction == 'yes' {
+        transform: translateY(-30px);
+        font-size: 15px;    
+    }
 }
 
 @mixin backBorderStyle($tamaño, $color) {
