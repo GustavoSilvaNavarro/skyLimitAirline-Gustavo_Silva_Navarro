@@ -129,9 +129,10 @@
                                                 <div class="icon"></div>
 
                                                 <div class="travelCardMid_inf">
-                                                    <input type="date" id="fechaRetorno" placeholder="Return" name="fechaRetorno">
-                                                    <div class="underline"></div>
-                                                    <label>Return*</label>
+                                                    <input type="date" id="fechaRetorno" placeholder="Return" name="fechaRetorno" required>
+                                                    <div class="underline" id="lineErrorDateReturn"></div>
+                                                    <label id="labelErrorDateReturn">Return*</label>
+                                                    <p class="errorMessages" id="dateErrorReturn">Error Message</p>
                                                 </div>
                                             </div>
                                             <div class="travelCard_mid travelCard__mid--passanger">
