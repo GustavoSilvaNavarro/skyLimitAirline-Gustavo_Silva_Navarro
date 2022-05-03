@@ -703,3 +703,66 @@
     margin: 1.3rem 0;
     width: 30%;
 }
+
+//FLIGHTS
+//Main
+.flightPickerContainer {
+    width: 100%;
+}
+
+.fligthSelected__btn {
+    color: #f44336;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+//PASSANGER
+.passagerContainer {
+    width: 100%;
+}
+
+.inputGroupContainer {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5px;
+}
+
+.groupContainer__input {
+    background-color: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    transition: all 0.2s ease;
+    margin: 0px 5px; 
+}
+
+.groupContainer__input:focus {
+    border: 1px solid #0984e3;
+    box-shadow: 0px 0px 10px rgba(72, 219, 251,1.0);
+}
+
+.nationalityContainer {
+    padding: 20px 5px;
+}
+
+.flags {
+    display: flex !important;
+    align-items: center;
+    padding: 10px 12px;
+    margin: 0px 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    > img {
+        width: 35px;
+        margin-right: 10px;
+    }
+    > select {
+        border: none;
+        width: 100%;
+    }
+}
