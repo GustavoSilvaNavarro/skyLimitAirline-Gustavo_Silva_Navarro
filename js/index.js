@@ -103,10 +103,10 @@ class Routes {
 //     };
 // }
 
-routesAvailable.push(new Routes('argentina', 'peru', '16/05/2022', '11:55', '14:25', fleet.boeing757200, 859.32, false));
-routesAvailable.push(new Routes('argentina', 'peru', '16/05/2022', '10:55', '12:36', fleet.boeing757200, 623.96, false));
+routesAvailable.push(new Routes('argentina', 'peru', '16/07/2022', '11:55', '14:25', fleet.boeing757200, 859.32, false));
+routesAvailable.push(new Routes('argentina', 'peru', '16/07/2022', '10:55', '12:36', fleet.boeing757200, 623.96, false));
 routesAvailable.push(new Routes('argentina', 'peru', '02/05/2022', '00:25', '04:36', fleet.boeing757200, 428.10, false));
-routesAvailable.push(new Routes('argentina', 'peru', '16/05/2022', '01:00', '07:06', fleet.boeing757200, 652.23, false));
+routesAvailable.push(new Routes('argentina', 'peru', '16/07/2022', '01:00', '07:06', fleet.boeing757200, 652.23, false));
 routesAvailable.push(new Routes('argentina', 'peru', '02/05/2022', '23:36', '06:15', fleet.boeing757200, 329.46, false));
 routesAvailable.push(new Routes('argentina', 'peru', '03/05/2022', '02:45', '10:52', fleet.boeing757200, 1023.16, false));
 routesAvailable.push(new Routes('argentina', 'bolivia', '02/05/2022', '22:59', '03:15', fleet.boeing767400, 325.36, false));
@@ -123,16 +123,16 @@ routesAvailable.push(new Routes('peru', 'ecuador', '12/05/2022', '08:55', '12:34
 routesAvailable.push(new Routes('peru', 'paraguay', '13/05/2022', '18:55', '22:29', fleet.boeing757200, 754.25, false));
 routesAvailable.push(new Routes('peru', 'venezuela', '13/05/2022', '17:23', '23:42', fleet.boeing767400, 853.75, false));
 routesAvailable.push(new Routes('peru', 'chile', '14/05/2022', '13:33', '16:20', fleet.boeing767300, 453.12, false));
-routesAvailable.push(new Routes('peru', 'argentina', '01/06/2022', '00:05', '10:26', fleet.boeing757200, 1853.21, false));
-routesAvailable.push(new Routes('peru', 'argentina', '01/06/2022', '16:15', '22:58', fleet.boeing767300, 458.36, false));
-routesAvailable.push(new Routes('peru', 'argentina', '01/06/2022', '09:45', '14:15', fleet.boeing767400, 956.41, false));
-routesAvailable.push(new Routes('peru', 'argentina', '01/06/2022', '12:25', '17:09', fleet.boeing757200, 365, false));
-routesAvailable.push(new Routes('peru', 'argentina', '01/06/2022', '14:35', '18:26', fleet.boeing767300, 999.99, false));
-routesAvailable.push(new Routes('peru', 'argentina', '01/06/2022', '17:23', '20:36', fleet.boeing767400, 315.68, false));
-routesAvailable.push(new Routes('peru', 'argentina', '05/06/2022', '00:05', '10:26', fleet.boeing757200, 1853.21, false));
-routesAvailable.push(new Routes('peru', 'argentina', '05/06/2022', '16:15', '22:58', fleet.boeing767300, 458.36, false));
-routesAvailable.push(new Routes('peru', 'argentina', '05/06/2022', '09:45', '14:15', fleet.boeing767400, 956.41, false));
-routesAvailable.push(new Routes('peru', 'argentina', '05/06/2022', '12:25', '17:09', fleet.boeing757200, 365, false));
+routesAvailable.push(new Routes('peru', 'argentina', '01/08/2022', '00:05', '10:26', fleet.boeing757200, 1853.21, false));
+routesAvailable.push(new Routes('peru', 'argentina', '01/08/2022', '16:15', '22:58', fleet.boeing767300, 458.36, false));
+routesAvailable.push(new Routes('peru', 'argentina', '01/08/2022', '09:45', '14:15', fleet.boeing767400, 956.41, false));
+routesAvailable.push(new Routes('peru', 'argentina', '01/08/2022', '12:25', '17:09', fleet.boeing757200, 365, false));
+routesAvailable.push(new Routes('peru', 'argentina', '01/08/2022', '14:35', '18:26', fleet.boeing767300, 999.99, false));
+routesAvailable.push(new Routes('peru', 'argentina', '01/08/2022', '17:23', '20:36', fleet.boeing767400, 315.68, false));
+routesAvailable.push(new Routes('peru', 'argentina', '05/08/2022', '00:05', '10:26', fleet.boeing757200, 1853.21, false));
+routesAvailable.push(new Routes('peru', 'argentina', '05/08/2022', '16:15', '22:58', fleet.boeing767300, 458.36, false));
+routesAvailable.push(new Routes('peru', 'argentina', '05/08/2022', '09:45', '14:15', fleet.boeing767400, 956.41, false));
+routesAvailable.push(new Routes('peru', 'argentina', '05/08/2022', '12:25', '17:09', fleet.boeing757200, 365, false));
 routesAvailable.push(new Routes('colombia', 'peru', '16/05/2022', '15:39', '17:42', fleet.boeing767400, 452.32, false));
 routesAvailable.push(new Routes('colombia', 'bolivia', '17/05/2022', '08:41', '13:14', fleet.boeing767300, 741.36, false));
 routesAvailable.push(new Routes('colombia', 'brasil', '18/05/2022', '18:46', '22:56', fleet.boeing767400, 369.25, false));
@@ -308,19 +308,6 @@ searchFlights.onclick = e => {
 };
 
 /*
-const numberPassager = (numPass) => {
-    let pasajeros = [];
-    for(let i = 0; i < numPass; i++) {
-        let passangers = prompt('Indique el nombre del pasajero?').toLocaleLowerCase().trim();
-        while(passangers == '') {
-            passangers = prompt('Indique el nombre del pasajero?').toLocaleLowerCase().trim();
-        };
-        pasajeros.push(passangers);
-    };
-
-    return pasajeros;
-};
-
 //GENERADOR DE RESERVAS
 const reservationGenerator = len => {
     let reservation = '';

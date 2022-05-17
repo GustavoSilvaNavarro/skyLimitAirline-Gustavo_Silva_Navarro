@@ -730,6 +730,11 @@
     padding: 20px 5px;
 }
 
+.groupContainer__nombres {
+    //flex-grow: 1;
+    width: 100%;
+}
+
 .groupContainer__input {
     background-color: none;
     padding: 10px 12px;
@@ -737,7 +742,7 @@
     border: 1px solid gray;
     width: 100%;
     transition: all 0.2s ease;
-    margin: 0px 5px; 
+    //margin: 0px 5px; 
 }
 
 .groupContainer__input:focus {
@@ -842,4 +847,27 @@
 
 .taxesContainer__taxMoney {
     color: $light-color-textCard;
+}
+
+.paymentTitle {
+    color: $dark-color-navbar;
+}
+
+.inputNombre__error {
+    border: 1px solid red;
+}
+
+.inputNombre__error:focus {
+    border: 1px solid red;
+}
+
+.nombresContainer__paragraph--correcto {
+    display: none;
+}
+
+.nombresContainer__paragraph {
+    margin: 0;
+    color: red;
+    font-size: 11px;
+    display: block;
 }
