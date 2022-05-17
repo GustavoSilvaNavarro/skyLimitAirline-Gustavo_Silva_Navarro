@@ -339,7 +339,7 @@ const getCountries = async () => {
         const birthDate = document.querySelector(`#fechaNacimiento${i}`);
         const idNumber = document.querySelector(`#numeroDocumento${i}`);
         const correoPass = document.querySelector(`#emailPasajero${i}`);
-        const TelPass = document.querySelector(`#phone${i}`);
+        const telPass = document.querySelector(`#phone${i}`);
 
         nombrePass.addEventListener('keyup', e => validacionPassForm(e, i));
         nombrePass.addEventListener('blur', e => validacionPassForm(e, i));
@@ -349,8 +349,8 @@ const getCountries = async () => {
         correoPass.addEventListener('blur', e => validacionPassForm(e, i));
         idNumber.addEventListener('keyup', e => validacionPassForm(e, i));
         idNumber.addEventListener('blur', e => validacionPassForm(e, i));
-        TelPass.addEventListener('keyup', e => validacionPassForm(e, i));
-        TelPass.addEventListener('blur', e => validacionPassForm(e, i));
+        telPass.addEventListener('keyup', e => validacionPassForm(e, i));
+        telPass.addEventListener('blur', e => validacionPassForm(e, i));
     };
 
     for(let i = 1; i < passangerNumber+1; i++) {
