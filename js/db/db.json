@@ -1,0 +1,1649 @@
+[
+    {
+        "id": "ce697516-fb7a-420a-8338-771a6868afee",
+        "origenFlight": "argentina",
+        "destinoFlight": "peru",
+        "takeoffDate": "16/07/2022",
+        "takeOffTime": "11:55",
+        "landingTime": "14:25",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 859.32,
+        "selected": false
+    },
+    {
+        "id": "7d81a855-cc0b-4b25-a20e-1b9e30dafec7",
+        "origenFlight": "argentina",
+        "destinoFlight": "peru",
+        "takeoffDate": "16/07/2022",
+        "takeOffTime": "10:55",
+        "landingTime": "12:36",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 623.96,
+        "selected": false
+    },
+    {
+        "id": "5a992b8a-800c-46e1-a3fa-9938ec78faf5",
+        "origenFlight": "argentina",
+        "destinoFlight": "peru",
+        "takeoffDate": "02/05/2022",
+        "takeOffTime": "00:25",
+        "landingTime": "04:36",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 428.1,
+        "selected": false
+    },
+    {
+        "id": "c1b6e73f-4ab7-4532-b8e2-9315953bca4a",
+        "origenFlight": "argentina",
+        "destinoFlight": "peru",
+        "takeoffDate": "16/07/2022",
+        "takeOffTime": "01:00",
+        "landingTime": "07:06",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 652.23,
+        "selected": false
+    },
+    {
+        "id": "52e97fd2-c641-4200-a3c4-0688e1638433",
+        "origenFlight": "argentina",
+        "destinoFlight": "peru",
+        "takeoffDate": "02/05/2022",
+        "takeOffTime": "23:36",
+        "landingTime": "06:15",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 329.46,
+        "selected": false
+    },
+    {
+        "id": "91f5eb84-c9a2-4efa-9737-85b961da9e06",
+        "origenFlight": "argentina",
+        "destinoFlight": "peru",
+        "takeoffDate": "03/05/2022",
+        "takeOffTime": "02:45",
+        "landingTime": "10:52",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 1023.16,
+        "selected": false
+    },
+    {
+        "id": "c6a88828-2d23-40da-b50a-d8ce17d61ab9",
+        "origenFlight": "argentina",
+        "destinoFlight": "bolivia",
+        "takeoffDate": "02/05/2022",
+        "takeOffTime": "22:59",
+        "landingTime": "03:15",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 325.36,
+        "selected": false
+    },
+    {
+        "id": "611acfdf-d45d-4acf-a0a7-acdb0bd2f3b1",
+        "origenFlight": "argentina",
+        "destinoFlight": "brasil",
+        "takeoffDate": "03/05/2022",
+        "takeOffTime": "03:03",
+        "landingTime": "11:36",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 452.32,
+        "selected": false
+    },
+    {
+        "id": "e90f230f-f4d4-42db-8270-bf2e7e269a96",
+        "origenFlight": "argentina",
+        "destinoFlight": "ecuador",
+        "takeoffDate": "04/05/2022",
+        "takeOffTime": "21:06",
+        "landingTime": "01:18",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 478.23,
+        "selected": false
+    },
+    {
+        "id": "3d031a4d-8454-49d7-ab35-4ec82cb69382",
+        "origenFlight": "argentina",
+        "destinoFlight": "paraguay",
+        "takeoffDate": "05/05/2022",
+        "takeOffTime": "04:09",
+        "landingTime": "10:36",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 856.32,
+        "selected": false
+    },
+    {
+        "id": "6fb5a2b4-7b3f-4f91-85ac-f5c500e7da57",
+        "origenFlight": "argentina",
+        "destinoFlight": "venezuela",
+        "takeoffDate": "06/05/2022",
+        "takeOffTime": "20:14",
+        "landingTime": "00:55",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 452.78,
+        "selected": false
+    },
+    {
+        "id": "16e17f50-2297-4698-9d60-cf1c04410b6d",
+        "origenFlight": "argentina",
+        "destinoFlight": "chile",
+        "takeoffDate": "07/05/2022",
+        "takeOffTime": "05:18",
+        "landingTime": "12:21",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 753.21,
+        "selected": false
+    },
+    {
+        "id": "7e682f1f-6fca-409a-a0b5-da55e5c3d4e1",
+        "origenFlight": "argentina",
+        "destinoFlight": "colombia",
+        "takeoffDate": "08/05/2022",
+        "takeOffTime": "19:15",
+        "landingTime": "23:52",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 423.45,
+        "selected": false
+    },
+    {
+        "id": "d71a8ce6-bfe8-4f8c-8440-97c29e53a8e4",
+        "origenFlight": "peru",
+        "destinoFlight": "colombia",
+        "takeoffDate": "09/05/2022",
+        "takeOffTime": "06:22",
+        "landingTime": "12:36",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 625.36,
+        "selected": false
+    },
+    {
+        "id": "208b3e1e-8f24-4b71-839c-5c68e2eb6c73",
+        "origenFlight": "peru",
+        "destinoFlight": "bolivia",
+        "takeoffDate": "10/05/2022",
+        "takeOffTime": "18:26",
+        "landingTime": "01:36",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 752.21,
+        "selected": false
+    },
+    {
+        "id": "9e2ab9e9-b7b8-46db-aa1e-94f7bf23c9db",
+        "origenFlight": "peru",
+        "destinoFlight": "brasil",
+        "takeoffDate": "11/05/2022",
+        "takeOffTime": "07:29",
+        "landingTime": "09:42",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 754.26,
+        "selected": false
+    },
+    {
+        "id": "694a1850-e411-422b-90f6-dfa868fe402b",
+        "origenFlight": "peru",
+        "destinoFlight": "ecuador",
+        "takeoffDate": "12/05/2022",
+        "takeOffTime": "08:55",
+        "landingTime": "12:34",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 862.48,
+        "selected": false
+    },
+    {
+        "id": "56d0c986-7ac7-4148-9637-9bcb292b07db",
+        "origenFlight": "peru",
+        "destinoFlight": "paraguay",
+        "takeoffDate": "13/05/2022",
+        "takeOffTime": "18:55",
+        "landingTime": "22:29",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 754.25,
+        "selected": false
+    },
+    {
+        "id": "b2a7a2a1-5ead-481b-9f85-9b381fed909d",
+        "origenFlight": "peru",
+        "destinoFlight": "venezuela",
+        "takeoffDate": "13/05/2022",
+        "takeOffTime": "17:23",
+        "landingTime": "23:42",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 853.75,
+        "selected": false
+    },
+    {
+        "id": "894a9d6d-d256-45f1-9d07-6fd28edd92d3",
+        "origenFlight": "peru",
+        "destinoFlight": "chile",
+        "takeoffDate": "14/05/2022",
+        "takeOffTime": "13:33",
+        "landingTime": "16:20",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 453.12,
+        "selected": false
+    },
+    {
+        "id": "c5ecfa93-2188-46da-97b4-79960e724547",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "01/08/2022",
+        "takeOffTime": "00:05",
+        "landingTime": "10:26",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 1853.21,
+        "selected": false
+    },
+    {
+        "id": "f29b696d-6fa1-4b9b-a490-d48236520678",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "01/08/2022",
+        "takeOffTime": "16:15",
+        "landingTime": "22:58",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 458.36,
+        "selected": false
+    },
+    {
+        "id": "bd973df3-9285-47d0-b3c9-1c7d5b9ffead",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "01/08/2022",
+        "takeOffTime": "09:45",
+        "landingTime": "14:15",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 956.41,
+        "selected": false
+    },
+    {
+        "id": "9ca15e6d-cfdb-4964-b810-eca2c0132b8b",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "01/08/2022",
+        "takeOffTime": "12:25",
+        "landingTime": "17:09",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 365,
+        "selected": false
+    },
+    {
+        "id": "0f1867d1-aa4b-4e06-8913-c51dc37784f7",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "01/08/2022",
+        "takeOffTime": "14:35",
+        "landingTime": "18:26",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 999.99,
+        "selected": false
+    },
+    {
+        "id": "5a4b709e-73e4-471d-b573-6770d552510c",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "01/08/2022",
+        "takeOffTime": "17:23",
+        "landingTime": "20:36",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 315.68,
+        "selected": false
+    },
+    {
+        "id": "6d4495cc-2249-4331-a0e9-87ca5c449ef2",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "05/08/2022",
+        "takeOffTime": "00:05",
+        "landingTime": "10:26",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 1853.21,
+        "selected": false
+    },
+    {
+        "id": "77feb913-7d1f-4c35-8d26-59457df1a707",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "05/08/2022",
+        "takeOffTime": "16:15",
+        "landingTime": "22:58",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 458.36,
+        "selected": false
+    },
+    {
+        "id": "08647b3b-aefa-4973-a158-c5cd28bcfc40",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "05/08/2022",
+        "takeOffTime": "09:45",
+        "landingTime": "14:15",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 956.41,
+        "selected": false
+    },
+    {
+        "id": "31bae3b2-351b-422d-b3c2-efa9d2fc385a",
+        "origenFlight": "peru",
+        "destinoFlight": "argentina",
+        "takeoffDate": "05/08/2022",
+        "takeOffTime": "12:25",
+        "landingTime": "17:09",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 365,
+        "selected": false
+    },
+    {
+        "id": "ec9afc65-da48-4322-882a-b54ba3727039",
+        "origenFlight": "colombia",
+        "destinoFlight": "peru",
+        "takeoffDate": "16/05/2022",
+        "takeOffTime": "15:39",
+        "landingTime": "17:42",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 452.32,
+        "selected": false
+    },
+    {
+        "id": "37b4e19a-5959-4e3d-9991-17b0375fe911",
+        "origenFlight": "colombia",
+        "destinoFlight": "bolivia",
+        "takeoffDate": "17/05/2022",
+        "takeOffTime": "08:41",
+        "landingTime": "13:14",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 741.36,
+        "selected": false
+    },
+    {
+        "id": "7c4785fa-ed95-4b0f-9f9a-093ba1f757d4",
+        "origenFlight": "colombia",
+        "destinoFlight": "brasil",
+        "takeoffDate": "18/05/2022",
+        "takeOffTime": "18:46",
+        "landingTime": "22:56",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 369.25,
+        "selected": false
+    },
+    {
+        "id": "012e2fae-cddf-45ed-ae5a-74173b4d108f",
+        "origenFlight": "colombia",
+        "destinoFlight": "ecuador",
+        "takeoffDate": "19/05/2022",
+        "takeOffTime": "19:49",
+        "landingTime": "21:34",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 852.13,
+        "selected": false
+    },
+    {
+        "id": "04831345-94e2-4389-9709-8f2e5dffe7f9",
+        "origenFlight": "colombia",
+        "destinoFlight": "paraguay",
+        "takeoffDate": "20/05/2022",
+        "takeOffTime": "03:50",
+        "landingTime": "06:05",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 741.97,
+        "selected": false
+    },
+    {
+        "id": "e0a5874d-2815-47aa-877a-96a4ac3d3cca",
+        "origenFlight": "colombia",
+        "destinoFlight": "venezuela",
+        "takeoffDate": "21/05/2022",
+        "takeOffTime": "08:55",
+        "landingTime": "12:16",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 236.14,
+        "selected": false
+    },
+    {
+        "id": "ef7509e9-7ab1-4feb-b7ee-60ed8624ba0f",
+        "origenFlight": "colombia",
+        "destinoFlight": "chile",
+        "takeoffDate": "22/05/2022",
+        "takeOffTime": "10:59",
+        "landingTime": "15:42",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 563.21,
+        "selected": false
+    },
+    {
+        "id": "e3d5eda8-7e49-4866-9bfd-02d9f379593a",
+        "origenFlight": "chile",
+        "destinoFlight": "argentina",
+        "takeoffDate": "23/05/2022",
+        "takeOffTime": "06:03",
+        "landingTime": "11:26",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 896.32,
+        "selected": false
+    },
+    {
+        "id": "5ad28a53-864b-49af-ad47-2a107d641330",
+        "origenFlight": "chile",
+        "destinoFlight": "peru",
+        "takeoffDate": "24/05/2022",
+        "takeOffTime": "23:05",
+        "landingTime": "03:12",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 321.47,
+        "selected": false
+    },
+    {
+        "id": "9fbf6a10-0799-432e-85bc-b4b2a4e0badf",
+        "origenFlight": "chile",
+        "destinoFlight": "bolivia",
+        "takeoffDate": "25/05/2022",
+        "takeOffTime": "00:07",
+        "landingTime": "06:32",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 147.89,
+        "selected": false
+    },
+    {
+        "id": "fe717497-30b9-446d-8287-8589bb4daaa7",
+        "origenFlight": "chile",
+        "destinoFlight": "brasil",
+        "takeoffDate": "26/05/2022",
+        "takeOffTime": "00:11",
+        "landingTime": "04:38",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 856.14,
+        "selected": false
+    },
+    {
+        "id": "f3d4d6e3-bec3-4b32-95a7-d086db6d04e5",
+        "origenFlight": "chile",
+        "destinoFlight": "ecuador",
+        "takeoffDate": "27/05/2022",
+        "takeOffTime": "14:45",
+        "landingTime": "18:16",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 752.35,
+        "selected": false
+    },
+    {
+        "id": "ed3bb978-5fb1-4e8f-9a19-82379d42ff9d",
+        "origenFlight": "chile",
+        "destinoFlight": "paraguay",
+        "takeoffDate": "28/05/2022",
+        "takeOffTime": "12:35",
+        "landingTime": "16:06",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 745.36,
+        "selected": false
+    },
+    {
+        "id": "2dca7475-fb6e-4dda-b87f-50b29064f1bc",
+        "origenFlight": "chile",
+        "destinoFlight": "venezuela",
+        "takeoffDate": "29/05/2022",
+        "takeOffTime": "11:25",
+        "landingTime": "15:23",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 154.32,
+        "selected": false
+    },
+    {
+        "id": "6f8eabda-22e4-489a-b822-119cf51b4223",
+        "origenFlight": "chile",
+        "destinoFlight": "colombia",
+        "takeoffDate": "30/05/2022",
+        "takeOffTime": "11:23",
+        "landingTime": "15:43",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 452.94,
+        "selected": false
+    },
+    {
+        "id": "28ddbd28-efa3-4fb6-9164-3706729a32b8",
+        "origenFlight": "brasil",
+        "destinoFlight": "argentina",
+        "takeoffDate": "08/05/2022",
+        "takeOffTime": "11:29",
+        "landingTime": "15:33",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 752.36,
+        "selected": false
+    },
+    {
+        "id": "8e7ce052-51ef-4fef-a43a-af16f75d02de",
+        "origenFlight": "brasil",
+        "destinoFlight": "venezuela",
+        "takeoffDate": "01/05/2022",
+        "takeOffTime": "14:45",
+        "landingTime": "17:53",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 756.21,
+        "selected": false
+    },
+    {
+        "id": "dc89fabd-09c4-4056-9557-e4e2c688379d",
+        "origenFlight": "brasil",
+        "destinoFlight": "peru",
+        "takeoffDate": "02/05/2022",
+        "takeOffTime": "15:55",
+        "landingTime": "19:04",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 785.96,
+        "selected": false
+    },
+    {
+        "id": "74031843-fb6b-4e54-8ccc-8adb4378928d",
+        "origenFlight": "brasil",
+        "destinoFlight": "bolivia",
+        "takeoffDate": "03/05/2022",
+        "takeOffTime": "18:55",
+        "landingTime": "21:24",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 452.36,
+        "selected": false
+    },
+    {
+        "id": "5c4e5cef-feac-4974-8440-12718e9daced",
+        "origenFlight": "brasil",
+        "destinoFlight": "chile",
+        "takeoffDate": "04/05/2022",
+        "takeOffTime": "01:55",
+        "landingTime": "06:14",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 452.36,
+        "selected": false
+    },
+    {
+        "id": "646fcda4-7747-4af8-8730-4342ec6092a8",
+        "origenFlight": "brasil",
+        "destinoFlight": "ecuador",
+        "takeoffDate": "05/05/2022",
+        "takeOffTime": "05:55",
+        "landingTime": "09:34",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 753.15,
+        "selected": false
+    },
+    {
+        "id": "be395684-515e-4bd0-9317-fb2ca14a2a2c",
+        "origenFlight": "brasil",
+        "destinoFlight": "paraguay",
+        "takeoffDate": "06/05/2022",
+        "takeOffTime": "23:55",
+        "landingTime": "03:44",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 856.37,
+        "selected": false
+    },
+    {
+        "id": "a3f63587-40cf-4b62-a558-5935be129287",
+        "origenFlight": "brasil",
+        "destinoFlight": "colombia",
+        "takeoffDate": "07/05/2022",
+        "takeOffTime": "14:55",
+        "landingTime": "20:54",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 1024.01,
+        "selected": false
+    },
+    {
+        "id": "37050d06-faf8-44cb-960f-48bf48473592",
+        "origenFlight": "ecuador",
+        "destinoFlight": "argentina",
+        "takeoffDate": "09/05/2022",
+        "takeOffTime": "16:55",
+        "landingTime": "21:05",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 452,
+        "selected": false
+    },
+    {
+        "id": "ede40352-db01-4020-a6cd-51ba8ec31148",
+        "origenFlight": "ecuador",
+        "destinoFlight": "venezuela",
+        "takeoffDate": "10/05/2022",
+        "takeOffTime": "17:55",
+        "landingTime": "22:15",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 851,
+        "selected": false
+    },
+    {
+        "id": "bea0bbad-5aac-4798-863a-c7e6719e1e47",
+        "origenFlight": "ecuador",
+        "destinoFlight": "peru",
+        "takeoffDate": "11/05/2022",
+        "takeOffTime": "19:55",
+        "landingTime": "00:25",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 452,
+        "selected": false
+    },
+    {
+        "id": "b1d38f2b-e599-48b2-8b91-82b49a79c546",
+        "origenFlight": "ecuador",
+        "destinoFlight": "bolivia",
+        "takeoffDate": "12/05/2022",
+        "takeOffTime": "18:55",
+        "landingTime": "23:35",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 657,
+        "selected": false
+    },
+    {
+        "id": "aba9234d-a496-4090-9957-36db9c587c79",
+        "origenFlight": "ecuador",
+        "destinoFlight": "chile",
+        "takeoffDate": "13/05/2022",
+        "takeOffTime": "13:55",
+        "landingTime": "17:45",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 741,
+        "selected": false
+    },
+    {
+        "id": "c7fec626-8874-49db-b031-10336ec7230d",
+        "origenFlight": "ecuador",
+        "destinoFlight": "brasil",
+        "takeoffDate": "14/05/2022",
+        "takeOffTime": "12:55",
+        "landingTime": "16:55",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 108,
+                    "seatConfiguration": "3-3"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 45,
+                    "seatConfiguration": "3-3"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 16,
+                    "seatConfiguration": "2-2"
+                }
+            },
+            "numberOfPlanes": 7
+        },
+        "priceLeg": 256,
+        "selected": false
+    },
+    {
+        "id": "0bbab784-74e3-4fb5-8cb4-7347964e0093",
+        "origenFlight": "ecuador",
+        "destinoFlight": "paraguay",
+        "takeoffDate": "15/05/2022",
+        "takeOffTime": "09:55",
+        "landingTime": "13:01",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 131,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 70,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 39,
+                    "seatConfiguration": "2-1-2"
+                }
+            },
+            "numberOfPlanes": 3
+        },
+        "priceLeg": 167,
+        "selected": false
+    },
+    {
+        "id": "19e6a86f-4f57-4407-bfa3-57e1967d7cd1",
+        "origenFlight": "ecuador",
+        "destinoFlight": "colombia",
+        "takeoffDate": "16/05/2022",
+        "takeOffTime": "12:55",
+        "landingTime": "14:21",
+        "plane": {
+            "planeFeatures": {
+                "economyClass": {
+                    "seatNumbers": 138,
+                    "seatConfiguration": "2-3-2"
+                },
+                "PremiumEconomyClass": {
+                    "seatNumbers": 46,
+                    "seatConfiguration": "2-3-2"
+                },
+                "BusinessFirstClass": {
+                    "seatNumbers": 30,
+                    "seatConfiguration": "1-1-1"
+                }
+            },
+            "numberOfPlanes": 5
+        },
+        "priceLeg": 953,
+        "selected": false
+    }
+]
