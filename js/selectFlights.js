@@ -72,63 +72,86 @@ const getData = async () => {
 getData();
 
 function showFlights(arrayFlights, title) {
-    const section = document.querySelector('#flightsFirstLeg');
-    const cards = document.querySelector('#cardsFligts');
-    const details = document.querySelector('#flightsDetails');
-    const h1 = document.createElement('h1');
-    h1.setAttribute('id', 'titlefirstLegFlight');
-    h1.classList.add('sectionCard__title');
-    h1.textContent = title;
-    section.insertBefore(h1, cards);
+    if(arrayFlights.length > 0) {
+        const section = document.querySelector('#flightsFirstLeg');
+        const cards = document.querySelector('#cardsFligts');
+        const details = document.querySelector('#flightsDetails');
+        const h1 = document.createElement('h1');
+        h1.setAttribute('id', 'titlefirstLegFlight');
+        h1.classList.add('sectionCard__title');
+        h1.textContent = title;
+        section.insertBefore(h1, cards);
 
-    let tituloTipoVuelo;
+        let tituloTipoVuelo;
 
-    (JSON.parse(localStorage.getItem('rutasSeleccionadas')) == null) ? tituloTipoVuelo = 'ida' : tituloTipoVuelo = 'retorno';
+        (JSON.parse(localStorage.getItem('rutasSeleccionadas')) == null) ? tituloTipoVuelo = 'ida' : tituloTipoVuelo = 'retorno';
 
-    for(let i = 0; i < arrayFlights.length; i++) {
-        const div = document.createElement('div');
-        div.className = 'card mb-3 ms-5 cardsFirstLegAll';
-        const flight = `
-            <a type="button" id="${arrayFlights[i].id}" onclick='addFlight("${arrayFlights[i].id}", "${tituloTipoVuelo}")'>
-                <div class="card-body">
-                    <p class="fs-6 dateOfFlight m-0"><strong>Fecha: </strong>${arrayFlights[i].takeoffDate}</p>
-                    <hr>
-                    <div class="row d-flex align-items-center">
-                        <div class="col-md-8">
-                            <div class="flightDetail">
-                                <div class="takeOffDetails">
-                                    <p class="me-1 fs-4 timeFlight mb-0">${arrayFlights[i].takeOffTime}</p>
-                                    <p class="fs-4 flightOrigen mb-0">${arrayFlights[i].origenFlight.toUpperCase().slice(0, 3)}</p>
-                                </div>
-                                <i class="fa-solid fa-plane"></i>
-                                <div class="landingDetails">
-                                    <p class="me-1 fs-4 mb-0 timeLanding">${arrayFlights[i].landingTime}</p>
-                                    <p class="fs-4 mb-0 flightLanding">${arrayFlights[i].destinoFlight.toUpperCase().slice(0, 3)}</p>
+        for(let i = 0; i < arrayFlights.length; i++) {
+            const div = document.createElement('div');
+            div.className = 'card mb-3 ms-5 cardsFirstLegAll';
+            const flight = `
+                <a type="button" id="${arrayFlights[i].id}" onclick='addFlight("${arrayFlights[i].id}", "${tituloTipoVuelo}")'>
+                    <div class="card-body">
+                        <p class="fs-6 dateOfFlight m-0"><strong>Fecha: </strong>${arrayFlights[i].takeoffDate}</p>
+                        <hr>
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-8">
+                                <div class="flightDetail">
+                                    <div class="takeOffDetails">
+                                        <p class="me-1 fs-4 timeFlight mb-0">${arrayFlights[i].takeOffTime}</p>
+                                        <p class="fs-4 flightOrigen mb-0">${arrayFlights[i].origenFlight.toUpperCase().slice(0, 3)}</p>
+                                    </div>
+                                    <i class="fa-solid fa-plane"></i>
+                                    <div class="landingDetails">
+                                        <p class="me-1 fs-4 mb-0 timeLanding">${arrayFlights[i].landingTime}</p>
+                                        <p class="fs-4 mb-0 flightLanding">${arrayFlights[i].destinoFlight.toUpperCase().slice(0, 3)}</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 d-flex justify-content-center">
-                            <div class="priceDetail">
-                            <p class="fs-6 passangerDetail">Adulto desde</p>
-                            <p class="fs-4 passangerPrice">${arrayFlights[i].priceLeg} USD</p>
+                            <div class="col-md-4 d-flex justify-content-center">
+                                <div class="priceDetail">
+                                <p class="fs-6 passangerDetail">Adulto desde</p>
+                                <p class="fs-4 passangerPrice">${arrayFlights[i].priceLeg} USD</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </a>
-        `;
-        div.innerHTML = flight;
-        details.appendChild(div);
-    };
+                </a>
+            `;
+            div.innerHTML = flight;
+            details.appendChild(div);
+        };
 
-    //Detalle de Compra
-    if(JSON.parse(localStorage.getItem('rutasSeleccionadas')) == null) {
-        const purchaseDetail = document.querySelector('#purchaseDetails');
-        const h2 = document.createElement('h2');
-        h2.setAttribute('id', 'resumenFirstLegOrder');
-        h2.className = "text-center display-5 mt-2";
-        h2.textContent = 'Resumen de tu viaje';
-        purchaseDetail.appendChild(h2);
+        //Detalle de Compra
+        if(JSON.parse(localStorage.getItem('rutasSeleccionadas')) == null) {
+            const purchaseDetail = document.querySelector('#purchaseDetails');
+            const h2 = document.createElement('h2');
+            h2.setAttribute('id', 'resumenFirstLegOrder');
+            h2.className = "text-center display-5 mt-2";
+            h2.textContent = 'Resumen de tu viaje';
+            purchaseDetail.appendChild(h2);
+        };
+    } else {
+        const titleArr = title.split(' ');
+        const lasTword = titleArr[titleArr.length - 1];
+        const sectionTit = document.getElementById('flightsFirstLeg');
+        const cardRows = document.querySelector('#cardsFligts');
+
+        if(lasTword == 'ida') {
+            const h2TitleIda = document.createElement('h2');
+            h2TitleIda.className = 'display-4 text-center p-3 noFlightsTitle';
+            h2TitleIda.textContent = 'Lo sentimos, SkyLimit Airline no cuenta con un vuelo programado para ese día y destinos!! 😢';
+
+            sectionTit.insertBefore(h2TitleIda, cardRows);
+        };
+
+        if(lasTword == 'retorno') {
+            const h2TitleRetorno = document.createElement('h2');
+            h2TitleRetorno.className = 'display-4 text-center p-3 noFlightsTitle';
+            h2TitleRetorno.textContent = 'Lo sentimos, SkyLimit Airline no cuenta con un vuelo de retorno programado para ese día y destinos!! 😢';
+
+            sectionTit.insertBefore(h2TitleRetorno, cardRows);
+        };
     };
 };
 

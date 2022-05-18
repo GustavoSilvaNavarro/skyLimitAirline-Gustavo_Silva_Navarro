@@ -9,7 +9,8 @@ const destino = document.getElementById('destinoVuelo');
 const fechaOrigen = document.getElementById('fechaIda');
 const fechaRetorno = document.getElementById('fechaRetorno');
 const categoryFlight = document.querySelector('#classes');
-const inputRadio = document.querySelector('#flexRadioDefault1');
+const roundTripBtn = document.querySelector('#flexRadioDefault1');
+const oneWayBtn = document.querySelector('#flexRadioDefault2');
 const searchFlights = document.querySelector('#searchBtn');
 
 //GET DATA FROM DB
