@@ -4,8 +4,6 @@ const pasajeros = JSON.parse(localStorage.getItem('pasajerosVuelo'));
 const categoriaSky = sessionStorage.getItem('skyCategory');
 const numPasajeros = sessionStorage.getItem('numeroPass');
 
-console.log()
-
 //GLOBAL VARIABLES
 let reservation = '';
 let order = '';

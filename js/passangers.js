@@ -1,7 +1,6 @@
 import stripeKeys from './assets/stripe-keys.js';
 
 const passangerNumber = parseInt(sessionStorage.getItem('numeroPass'));
-const category = sessionStorage.getItem('skyCategory');
 const vuelos = JSON.parse(localStorage.getItem('rutasSeleccionadas'));
 const passangerInfo = document.querySelector('#passangerForm');
 const resumenViaje = document.querySelector('#resumenCompraViaje');
