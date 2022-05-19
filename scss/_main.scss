@@ -719,7 +719,7 @@
 }
 
 //PASSANGER
-.passagerContainer {
+.passagerContainer, .ticketsSection {
     width: 100%;
 }
 
@@ -876,7 +876,20 @@
     color: #b2bec3;
 }
 
+//USARLO PARA HACER DESAPARECER EL INPUT DE VIAJE DE REGRESO
 .travelCardMid_inf--retorno {
     pointer-events: none;
     opacity: 0;
+}
+
+.adminContainer {
+    background-color: #dfe6e9;
+    border-radius: 15px;
+}
+
+.tarifaContainer {
+    background-color: $dark-color-navbar;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 12px;
 }

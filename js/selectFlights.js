@@ -20,7 +20,6 @@ let origenFlightsAvailable = [];
 let destinoFlightsAvailable = [];
 let routeSelectedByUser = [];
 let finalsOneWayg = [];
-let categories = ['economy class', 'premium economy class', 'business / first class']; //posiblemente borrarlo
 
 //GET DATA FROM LOCAL DB
 const getData = async () => {

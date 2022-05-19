@@ -13,6 +13,17 @@ const roundTripBtn = document.querySelector('#flexRadioDefault1');
 const oneWayBtn = document.querySelector('#flexRadioDefault2');
 const searchFlights = document.querySelector('#searchBtn');
 
+/*
+console.log(roundTripBtn.value)
+console.log(roundTripBtn.checked)
+console.log(oneWayBtn.value)
+console.log(oneWayBtn.checked)
+
+oneWayBtn.addEventListener('change', () => {
+    console.log('Cambia');
+});
+*/
+
 //GET DATA FROM DB
 const getFlights = async () => {
     let routesAvailable = [];
@@ -327,25 +338,4 @@ routesAvailable.push(new Routes('ecuador', 'brasil', '14/05/2022', '12:55', '16:
 routesAvailable.push(new Routes('ecuador', 'paraguay', '15/05/2022', '09:55', '13:01', fleet.boeing767400, 167, false));
 routesAvailable.push(new Routes('ecuador', 'colombia', '16/05/2022', '12:55', '14:21', fleet.boeing767300, 953, false));
 
-*/
-
-
-
-
-
-
-
-
-/*
-//GENERADOR DE RESERVAS
-const reservationGenerator = len => {
-    let reservation = '';
-    for(let i = 0; i < len; i++) {
-        const index = (Math.random() * 26) + 65;
-        let letra = String.fromCharCode(index);
-        reservation += letra;
-    }
-
-    return reservation;
-};
 */
